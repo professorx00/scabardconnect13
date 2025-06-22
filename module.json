@@ -1,0 +1,26 @@
+{
+  "id": "scabardconnect13",
+  "title": "Scabard Connect 13",
+  "description": "Connecting Scabard.com to Foundry VTT",
+  "authors": [
+    {
+      "name": "David Ward"
+    }
+  ],
+  "version": "1.0.0",
+  "esmodules": ["scabardConnect.js"],
+  "styles": ["css/scabardConnect.css"],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [],
+    "requires": []
+  },
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE",
+  "readme": "README.md"
+}

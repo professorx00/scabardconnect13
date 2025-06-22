@@ -1,0 +1,92 @@
+<div>
+    {{#each concepts}}
+        <a class="catBtn" data-cat="{{this}}" id="{{this}}btn" data-action="catBtn">{{this}}</a>
+    {{/each}}
+    <div id="adventures" class="hidden">
+        {{#each Adventures}}
+           {{this.name}}
+        {{/each}}
+    </div>
+    <div class="container">
+        <div id="Characters" class="gridParent hidden">
+            {{#each Characters}}
+            {{!-- <a class="sectionBtn" data-action="editBtn" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">{{this.name}}</a> --}}
+            <div class="sectionGrid">
+                <div class="section1">{{this.name}}</div>
+                <div class="section2"><a class="sectionBtn" data-action="import" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">Import</a></div>
+                <div class="section3"><a class="sectionBtn" href="https://www.scabard.com/pbs/{{this.uri}}">View</a></div>
+            </div>
+            {{/each}}
+        </div>
+          <div id="Adventures" class="gridParent hidden">
+            {{#each Adventures}}
+            {{!-- <a class="sectionBtn" data-action="editBtn" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">{{this.name}}</a> --}}
+            <div class="sectionGrid">
+                <div class="section1">{{this.name}}</div>
+                <div class="section2"><a class="sectionBtn" data-action="import" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">Import</a></div>
+                <div class="section3"><a class="sectionBtn" href="https://www.scabard.com/pbs/{{this.uri}}">View</a></div>
+            </div>
+            {{/each}}
+        </div>
+        <div id="Events" class="gridParent hidden">
+            {{#each Events}}
+            {{!-- <a class="sectionBtn" data-action="editBtn" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">{{this.name}}</a> --}}
+            <div class="sectionGrid">
+                <div class="section1">{{this.name}}</div>
+                <div class="section2"><a class="sectionBtn" data-action="import" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">Import</a></div>
+                <div class="section3"><a class="sectionBtn" href="https://www.scabard.com/pbs/{{this.uri}}">View</a></div>
+            </div>
+            {{/each}}
+        </div>
+        <div id="Groups" class="gridParent hidden">
+            {{#each Groups}}
+            {{!-- <a class="sectionBtn" data-action="editBtn" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">{{this.name}}</a> --}}
+            <div class="sectionGrid">
+                <div class="section1">{{this.name}}</div>
+                <div class="section2"><a class="sectionBtn" data-action="import" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">Import</a></div>
+                <div class="section3"><a class="sectionBtn" href="https://www.scabard.com/pbs/{{this.uri}}">View</a></div>
+            </div>
+            {{/each}}
+        </div>
+        <div id="Items" class="gridParent hidden">
+            {{#each Items}}
+            {{!-- <a class="sectionBtn" data-action="editBtn" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">{{this.name}}</a> --}}
+            <div class="sectionGrid">
+                <div class="section1">{{this.name}}</div>
+                <div class="section2"><a class="sectionBtn" data-action="import" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">Import</a></div>
+                <div class="section3"><a class="sectionBtn" href="https://www.scabard.com/pbs/{{this.uri}}">View</a></div>
+            </div>
+            {{/each}}
+        </div>
+        <div id="Places" class="gridParent hidden">
+            {{#each Places}}
+            {{!-- <a class="sectionBtn" data-action="editBtn" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">{{this.name}}</a> --}}
+            <div class="sectionGrid">
+                <div class="section1">{{this.name}}</div>
+                <div class="section2"><a class="sectionBtn" data-action="import" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">Import</a></div>
+                <div class="section3"><a class="sectionBtn" href="https://www.scabard.com/pbs/{{this.uri}}">View</a></div>
+            </div>
+            {{/each}}
+        </div>
+        <div id="Vehicles" class="gridParent hidden">
+            {{#each Vehicles}}
+            {{!-- <a class="sectionBtn" data-action="editBtn" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">{{this.name}}</a> --}}
+            <div class="sectionGrid">
+                <div class="section1">{{this.name}}</div>
+                <div class="section2"><a class="sectionBtn" data-action="import" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">Import</a></div>
+                <div class="section3"><a class="sectionBtn" href="https://www.scabard.com/pbs/{{this.uri}}">View</a></div>
+            </div>
+            {{/each}}
+        </div>
+        <div id="Notes" class="gridParent hidden">
+            {{#each Notes}}
+            {{!-- <a class="sectionBtn" data-action="editBtn" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">{{this.name}}</a> --}}
+            <div class="sectionGrid">
+                <div class="section1">{{this.name}}</div>
+                <div class="section2"><a class="sectionBtn" data-action="import" data-uri="{{this.uri}}" data-name="{{this.name}}" data-concept="{{this.concept}}">Import</a></div>
+                <div class="section3"><a class="sectionBtn" href="https://www.scabard.com/pbs/{{this.uri}}">View</a></div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
