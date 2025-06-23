@@ -18,9 +18,9 @@
     "systems": [],
     "requires": []
   },
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/professorx00/scabardconnect13/",
+  "manifest": "https://github.com/professorx00/scabardconnect13/releases/download/alpha_1/module.json",
+  "download": "https://github.com/professorx00/scabardconnect13/releases/download/alpha_1/scabardconnect13.zip",
   "license": "LICENSE",
   "readme": "README.md"
 }
