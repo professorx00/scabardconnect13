@@ -1,0 +1,10 @@
+<div>
+    <span>Included in Import</span>
+    <ul class="importList">
+    {{#each list}}
+        <li>{{this.main.name}} <i class="fa-regular fa-square-minus" data-action="remove" data-uri="{{this.main.uri}}"></i></li>
+    {{/each}}
+    </ul>
+    <a class="myButton" data-action="importBtn" data-id="{{scabardData.id}}">Import</a>
+    <a class="myButton" data-action="cancelBtn">Cancel</a>
+</div>
